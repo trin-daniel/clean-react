@@ -12,7 +12,10 @@
     "noImplicitAny": true,                 
     "strictNullChecks": false,              
     "noUnusedParameters": true,            
-    "baseUrl": "./src",                       
+    "baseUrl": "./src",
+    "paths": {
+      "@/*":["*"]
+    },                      
     "allowSyntheticDefaultImports": true,  
     "esModuleInterop": true,
     "experimentalDecorators": true,        
