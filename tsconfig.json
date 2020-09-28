@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",                          
+    "target": "ES6",                          
     "module": "ESNext",
     "moduleResolution": "Node",                 
     "lib": ["DOM", "DOM.Iterable", "ESNext"],                             
@@ -11,7 +11,8 @@
     "strict": true,                           
     "noImplicitAny": true,                 
     "strictNullChecks": false,              
-    "noUnusedParameters": true,            
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,            
     "baseUrl": "./src",
     "paths": {
       "@/*":["*"]
@@ -19,8 +20,7 @@
     "allowSyntheticDefaultImports": true,  
     "esModuleInterop": true,
     "experimentalDecorators": true,        
-    "emitDecoratorMetadata": true,         
-    "skipLibCheck": true,                     
+    "emitDecoratorMetadata": true,                          
     "forceConsistentCasingInFileNames": true  
   },
   "include": ["src"]
